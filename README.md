@@ -1,5 +1,5 @@
-# [Demo Website](https://mohitshrestha.github.io/demo_website) 
-https://mohitshrestha.github.io/demo_website
+# [Mohit Shrestha Website](https://mohitshrestha.github.io/) 
+https://mohitshrestha.github.io/
 
 ## Licenses
 © 2023 by [Mohit Shrestha](https://mohitshrestha.com.np/)
