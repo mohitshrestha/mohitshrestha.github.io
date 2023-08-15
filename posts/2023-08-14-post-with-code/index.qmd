@@ -1,0 +1,19 @@
+---
+title: "Post With Code"
+# author: "Mohit Shrestha"
+date: "2023-08-14"
+categories: [news, code, analysis]
+image: "media/image.jpg"
+---
+
+```{r}
+#| echo: false
+#| results: 'hide'
+renv::use(lockfile = "renv.lock")
+```
+
+This is a post with executable code.
+
+```{r}
+1 + 1
+```

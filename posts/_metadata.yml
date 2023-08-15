@@ -1,0 +1,39 @@
+# options specified here will apply to all posts in this folder
+
+# prevents posts from re-rendering unless explicitly told to do so (for more, see https://quarto.org/docs/projects/code-execution.html#freeze)
+freeze: true
+
+# enable banner style title blocks (see https://quarto.org/docs/authoring/title-blocks.html)
+title-block-banner: true
+
+# Enable CC licence appendix
+license: "CC BY-SA"
+
+# Default knitr options
+execute:
+  echo: true
+  message: false
+  warning: false
+
+# Default author name of all posts
+author:
+  - name: Mohit Shrestha
+    url: https://www.mohitshrestha.com.np/
+    email: contact@mohitshrestha.com.np
+    orcid: 0000-0003-1719-2195
+    # affiliations: 
+    #   - ref: github
+# 
+# affiliations: 
+#   - id: github
+#     name: Mohit Shrestha Github
+#     url: https://mohitshrestha.github.io
+
+# Default fields for citation
+citation: true
+
+# Default for table of contents
+toc: true
+toc-depth: 3
+toc-title: "On this page"
+toc-location: left

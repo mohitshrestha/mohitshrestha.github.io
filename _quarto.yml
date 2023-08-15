@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: docs
+  resources: 
+    - "/media/profile.png"
+    - "/media/*"
+
+website:
+  title: "Demo Website"
+  site-url: https://mohitshrestha.github.io
+  description: "Demo Website made with Quarto along with Blog funtionality"
+  favicon: /media/profile.png
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Posts
+        href: posts.qmd
+      - text: DataViz Portfolio
+        href: dataviz_portfolio.qmd
+      - text: About
+        href: about.qmd
+    right:
+      - icon: github
+        text: Github
+        href: https://github.com/MohitShrestha
+      - icon: rss
+        text: RSS
+        href: posts.xml
+  page-footer:
+    background: light
+    center: |
+      {{< var website.licenses.cc_by-sa >}}
+    right: |
+      Made with ❤️ and [Quarto](https://quarto.org/)<br>
+      [View the source at {{< fa brands github >}} GitHub]({{< var website.github_url >}})
+  repo-url: https://www.github.com/mohitshrestha/demo_website
+  repo-actions: [edit, issue]
+
+format:
+  html:
+    theme: 
+        light: litera
+        dark: darkly
+    css: styles.css
+    toc: true
+
+editor: visual
+
+# See https://quarto.org/docs/projects/code-execution.html#freeze
+execute:
+  freeze: auto  # Re-render only when source changes

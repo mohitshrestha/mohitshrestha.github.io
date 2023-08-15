@@ -1,0 +1,38 @@
+---
+title: "About"
+image: "media/profile.png"
+about:
+  template: trestles
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/MohitShrestha
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/MohitShrestha/
+    - icon: github
+      text: Github
+      href: https://github.com/MohitShrestha/
+---
+
+::: {#topbr}
+Add content about yourself/company that you want to share with the world!
+
+### Hi there!
+
+## Currently, I am working as a Data Scientist Consultant at [Data Elevates](https://www.dataelevates.com/).
+
+### Recent experience
+
+**Data Scientist Consultant, Feb 2022 - present** [Data Elevates](https://www.dataelevates.com/)
+
+**Senior Energy Market Analyst, May 2021 - Dec 2021** [Energy Exemplar](https://www.energyexemplar.com/)
+
+**Energy Market Consultant, Jun 2011 - Sep 2016** [ICF](https://www.icf.com/)
+
+### Education
+
+**M.S. in Business Analytics \| Sept 2019 - May 2021** [Wake Forest University School of Business](https://business.wfu.edu/msbaprograms/)<br> Winston-Salem, North Carolina, USA
+
+**B.S. in Mathematical Economics and Applied Mathematics \| Aug 2007 - May 2011** [Hampden-Sydney College](https://www.hsc.edu/)<br> Hampden Sydney, Virginia, USA
+:::

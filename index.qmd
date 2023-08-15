@@ -1,0 +1,33 @@
+---
+title: "Demo Website"
+image: "media/profile.png"
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/MohitShrestha
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/MohitShrestha/
+    - icon: github
+      text: Github
+      href: https://github.com/MohitShrestha/
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+Below is an example to illustrate how to include executable code.
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: show
+
+1 + 1
+```
+
+Add/Edit more contents [as you wish!]{.underline}

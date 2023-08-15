@@ -1,0 +1,24 @@
+---
+title: "**License**"
+format:
+  html:
+    page-layout: full
+---
+
+[{{< var website.name >}}]({{< var website.github_page >}}) © {{< var website.copyright_year >}} by [{{< var author.name >}}]({{< var author.url >}})
+
+Licensed under:
+
+<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" width="25"/> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" width="25"/> <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" width="25"/> [CC BY-SA 4.0 (Creative Commons Attribution-ShareAlike 4.0 International)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+#### **Attribution-ShareAlike 4.0 International**
+
+This license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes. If others remix, adapt, or build upon the material, they must license the modified material under identical terms.
+
+-   <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" width="25"/> **CC:** Creative Commons.
+
+-   <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" width="25"/> **BY:** Credit must be given to you, the creator.
+
+-   <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" width="25"/> **SA:** Adaptations must be shared under the same terms.
+
+[**See the License Deed**](http://creativecommons.org/licenses/by-sa/4.0/)

@@ -1,0 +1,14 @@
+{
+  "hash": "f4ea3445a44aafc58f4a5ee21ae3598d",
+  "result": {
+    "markdown": "---\ntitle: \"Post With Code\"\n# author: \"Mohit Shrestha\"\ndate: \"2023-08-14\"\ncategories: [news, code, analysis]\nimage: \"media/image.jpg\"\n---\n\n::: {.cell}\n\n:::\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

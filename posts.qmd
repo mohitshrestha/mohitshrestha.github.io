@@ -1,0 +1,18 @@
+---
+title: "Recent posts"
+listing: 
+  contents: posts/**/*.qmd # all Quarto docs(.qmd) from the `posts` directory (and sub-directories) will be included in this listing page. If your posts directory will only contain .qmd-files, then you may as well just write contents: posts. In my case, though, some directories contain .md-files that I don’t want to list.
+  type: grid # `default` or `grid` or `table`; each type has its own set of yaml options to include
+  image-height: 170px
+  image-align: right
+  sort: "date desc" # can also sort on more than one field
+  categories: true # allows you to sort posts by assigned categories
+  sort-ui: true # enable sorting
+  filter-ui: true # enable filtering
+  fields: [image, date, title, author, reading-time, description, categories]
+  # Feed instructs this listing page to generate an RSS-feed. This works only if we have set the site-url in our _quarto.yml file. If we have enabled RSS feeds, then this listing page will generate a feed that will be saved in the file posts.xml (because the generating file is posts.qmd). That’s why I have linked the RSS icon in our _quarto.yml file to posts.xml.
+  feed:
+    type: full # full or partial. full, the default, includes the full contents of each document in the feed. partial includes only the first paragraph contents in the feed.
+page-layout: full
+title-block-banner: false
+---

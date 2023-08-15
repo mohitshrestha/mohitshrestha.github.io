@@ -1,0 +1,31 @@
+# Default author name of all posts
+author:
+    name: Mohit Shrestha
+    name_with_title: Mohit Shrestha, MSBA
+    url: https://www.mohitshrestha.com.np/
+    email: "[contact@mohitshrestha.com.np](mailto:contact@mohitshrestha.com.np)"
+    twitter: MohitShrestha
+    twitter_url: https://twitter.com/MohitShrestha
+    linkedin: MohitShrestha
+    linkedin_url: https://www.linkedin.com/in/MohitShrestha/
+    github: MohitShrestha
+    github_url: https://github.com/MohitShrestha
+    orcid: 0000-0003-1719-2195
+    contact_policy: >-
+        E-mail and Slack are the best ways to get in contact with me. I will try to respond to all e-mails and Slack messages within 24 hours (*really*), but also remember that life can be busy and chaotic for everyone (including me!), so if I don't respond right away, don't worry!
+    appointment_url: https://calendly.com/mohitshrestha/
+
+website:
+    name: "Demo Website"
+    url: "https://mohitshrestha.github.io/demo_website"
+    github_url: "https://www.github.com/mohitshrestha/demo_website"
+    github_page: "https://mohitshrestha.github.io/demo_website"
+    logo: <img src="media/profile.png" alt="Example Profile Pic" width="500" height="600">
+    copyright_year: "2023"
+    licenses: 
+        cc_by: "[Demo Website](https://mohitshrestha.github.io/demo_website) © {{< var website.copyright_year >}} by [Mohit Shrestha](https://mohitshrestha.com.np/) <br> Licensed under {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} [CC BY 4.0 (Creative Commons Attribution 4.0 International)](http://creativecommons.org/licenses/by/4.0/)"
+        cc_by-sa: "[Demo Website](https://mohitshrestha.github.io/demo_website) © {{< var website.copyright_year >}} by [Mohit Shrestha](https://mohitshrestha.com.np/) <br> Licensed under {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} [CC BY-SA 4.0 (Creative Commons Attribution-ShareAlike 4.0 International)](/license.qmd)"
+        cc_by-nc: "[Demo Website](https://mohitshrestha.github.io/demo_website) © {{< var website.copyright_year >}} by [Mohit Shrestha](https://mohitshrestha.com.np/) <br> Licensed under {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} {{< fa brands creative-commons-nc >}} [CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial 4.0 International)](https://creativecommons.org/licenses/by-nc/4.0/)"
+        cc_by-nd: "[Demo Website](https://mohitshrestha.github.io/demo_website) © {{< var website.copyright_year >}} by [Mohit Shrestha](https://mohitshrestha.com.np/) <br> Licensed under {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nd >}} [CC BY-ND 4.0 (Creative Commons Attribution-NoDerivatives 4.0 International)](http://creativecommons.org/licenses/by-nd/4.0/)"
+        slack: "https://mohitshrestha.slack.com/archives/C05NJ5VD664"
+    
